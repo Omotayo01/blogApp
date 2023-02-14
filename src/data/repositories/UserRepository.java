@@ -4,7 +4,7 @@ import data.models.User;
 
 import java.util.List;
 
-public interface UserInterface {
+public interface UserRepository {
 
     User save (User user);
     
@@ -19,4 +19,6 @@ public interface UserInterface {
     void delete (int id);
     
     void deleteAll();
+
+
 }
